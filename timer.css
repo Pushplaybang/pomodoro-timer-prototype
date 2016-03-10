@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+}
+
+button {
+  border: 1px dotted;
+  background: 0;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100px;
+  padding: 2rem;
+  text-align: center;
+  background: red;
+  color: #fff;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+button:focus {
+  outline: none;
+}

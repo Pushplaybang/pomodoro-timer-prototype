@@ -1,0 +1,23 @@
+<head>
+  <title>timer</title>
+</head>
+
+<body>
+  {{> timer}}
+</body>
+
+<template name="timer">
+  <div class="current-time">
+    <h3>{{ time }}</h3>
+    <p>{{ date }}</p>
+    <button type="button">{{buttonText}}</button>
+    {{#if isRunning}}
+      <h1 class="pomodoro">
+        {{ timeToDone }}
+      </h1>
+      <p class="exact">{{  }}</p>
+    {{/if}}
+  </div>
+</template>
+
+
