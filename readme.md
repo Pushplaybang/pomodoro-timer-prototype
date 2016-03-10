@@ -1,9 +1,10 @@
-# Pomodoro Timer Prototype
-Justa very quick and easy prototype using meteor on the client only, to prototype some simple functionality, essentially an easy way to intro reactive UI's and blaze.
+# Pomodoro Timer Prototype in Meteor
+Just a very quick and easy prototype using meteor on the client only, to prototype some simple functionality, essentially an easy way to intro reactive UI's and blaze.
 
 * Shows working with template helpers
 * Template events
-* Reactive data sources
+* Reactive data source
+* Getting Started with Meteor
 
 
 
