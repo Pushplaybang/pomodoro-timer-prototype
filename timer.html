@@ -7,16 +7,16 @@
 </body>
 
 <template name="timer">
-  <div class="current-time">
+  <div class="timer">
     <h3>{{ time }}</h3>
     <p>{{ date }}</p>
-    <button type="button">{{buttonText}}</button>
-    {{#if isRunning}}
-      <h1 class="pomodoro">
+    <button type="button">{{ buttonText }}</button>
+    <div class="countdown {{ activeClass }}">
+      <h1>
         {{ timeToDone }}
       </h1>
-      <p class="exact">{{  }}</p>
-    {{/if}}
+      <p>{{ exactTimeToDone }}</p>
+    </div>
   </div>
 </template>
 

@@ -2,9 +2,24 @@ body {
   text-align: center;
 }
 
+.timer {
+  perspective: 150px;
+}
+
+.countdown {
+  opacity: 0;
+  transform: translate3d(0, 0, -40px);
+}
+
+.countdown.active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: opacity .24s linear, transform .24s ease-in;
+}
+
 button {
-  border: 1px dotted;
-  background: 0;
+  border: none;
+  /*background: 0;*/
   width: 10rem;
   height: 10rem;
   border-radius: 100px;
@@ -15,6 +30,7 @@ button {
   font-weight: 900;
   font-size: 2rem;
 }
+
 
 button:focus {
   outline: none;
