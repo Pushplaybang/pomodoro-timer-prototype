@@ -3,8 +3,8 @@ Just a very quick and easy prototype using meteor on the client only, to prototy
 
 * Shows working with template helpers
 * Template events
-* Reactive data source
-* Getting Started with Meteor
+* Reactive data sources
+* Getting Started with Meteor UI's
 
 
 
